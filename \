@@ -1,0 +1,77 @@
+﻿namespace BaggageSorting;
+
+internal class Program
+{
+    public static void Main(string[] args)
+    {
+        Airline SAS = new();
+        Airline KLM = new();
+        Airline LOT = new();
+        Airline IAG = new();
+
+        CheckIn test1 = new(1, SAS);
+
+    }
+}
+
+internal class Airline
+{
+    public Airline()
+    {
+
+    }
+
+    private string sorterAmount;
+    private string airline;
+}
+
+internal class Sorter
+{
+    public Sorter(Airline airline)
+    {
+    }
+}
+
+internal class CheckIn
+{
+    internal static Queue<Baggage> BaggageList = new();
+    private int Id;
+    public CheckIn(int id, Airline airline)
+    {
+        Id = id;
+    }
+
+    internal void CloseCheckIn()
+    {
+
+    }
+
+    internal void OpenCheckIn()
+    {
+
+    }
+}
+
+internal class Gate
+{
+    public Gate(Airline airline)
+    {
+    }
+
+    internal void OpenGate()
+    {
+
+    }
+
+    internal void CloseGate()
+    {
+
+    }
+}
+
+internal class Baggage
+{
+    internal Baggage()
+    {
+    }
+}

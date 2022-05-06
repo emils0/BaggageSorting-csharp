@@ -1,0 +1,15 @@
+/Users/emil/RiderProjects/BaggageSorting/bin/Debug/net6.0/BaggageSorting
+/Users/emil/RiderProjects/BaggageSorting/bin/Debug/net6.0/BaggageSorting.deps.json
+/Users/emil/RiderProjects/BaggageSorting/bin/Debug/net6.0/BaggageSorting.runtimeconfig.json
+/Users/emil/RiderProjects/BaggageSorting/bin/Debug/net6.0/BaggageSorting.dll
+/Users/emil/RiderProjects/BaggageSorting/bin/Debug/net6.0/BaggageSorting.pdb
+/Users/emil/RiderProjects/BaggageSorting/obj/Debug/net6.0/BaggageSorting.csproj.AssemblyReference.cache
+/Users/emil/RiderProjects/BaggageSorting/obj/Debug/net6.0/BaggageSorting.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emil/RiderProjects/BaggageSorting/obj/Debug/net6.0/BaggageSorting.AssemblyInfoInputs.cache
+/Users/emil/RiderProjects/BaggageSorting/obj/Debug/net6.0/BaggageSorting.AssemblyInfo.cs
+/Users/emil/RiderProjects/BaggageSorting/obj/Debug/net6.0/BaggageSorting.csproj.CoreCompileInputs.cache
+/Users/emil/RiderProjects/BaggageSorting/obj/Debug/net6.0/BaggageSorting.dll
+/Users/emil/RiderProjects/BaggageSorting/obj/Debug/net6.0/refint/BaggageSorting.dll
+/Users/emil/RiderProjects/BaggageSorting/obj/Debug/net6.0/BaggageSorting.pdb
+/Users/emil/RiderProjects/BaggageSorting/obj/Debug/net6.0/BaggageSorting.genruntimeconfig.cache
+/Users/emil/RiderProjects/BaggageSorting/obj/Debug/net6.0/ref/BaggageSorting.dll
