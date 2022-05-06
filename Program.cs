@@ -1,9 +1,7 @@
-﻿namespace BaggageSorting;
+namespace BaggageSorting;
 
-internal class Program
-{
-    public static void Main(string[] args)
-    {
+internal class Program {
+    public static void Main(string[] args) {
         Airline SAS = new(12, 2);
         Airline KLM = new(12, 2);
         Airline LOT = new(12, 2);
@@ -15,84 +13,62 @@ internal class Program
         SAS.SorterAmount = 100;
 
         Console.WriteLine($"{SAS.SorterAmount} {SAS.CheckInAmount}");
-
-        while (true) {
-            Console.WriteLine(Random.Shared.Next(0, 4));
-            Thread.Sleep(100/15);
-        }
     }
 }
 
-internal class Airline
-{
+internal class Airline {
     private int _sorterAmount;
-    public int SorterAmount
-    {
+    public int SorterAmount {
         get => _sorterAmount;
         set => _sorterAmount = value;
     }
 
     private int _checkInAmount;
-    public int CheckInAmount
-    {
+    public int CheckInAmount {
         get => _checkInAmount;
         set => _checkInAmount = value;
     }
 
-    public Airline(int sorterAmount, int checkInAmount)
-    {
+    public Airline(int sorterAmount, int checkInAmount) {
         _sorterAmount = sorterAmount;
         _checkInAmount = checkInAmount;
     }
 }
 
-internal class Sorter
-{
-    public Sorter(Airline airline)
-    {
+internal class Sorter {
+    public Sorter(Airline airline) {
     }
 }
 
-internal class CheckIn
-{
+internal class CheckIn {
     internal static Queue<Baggage> BaggageList = new();
-    private int Id;
-    public CheckIn(int id, Airline airline)
-    {
-        Id = id;
-    }
+    private readonly int Id;
 
-    internal void CloseCheckIn()
-    {
+    public CheckIn(int id, Airline airline) => this.Id = id;
+
+    internal static void CloseCheckIn() {
 
     }
 
-    internal void OpenCheckIn()
-    {
+    internal static void OpenCheckIn() {
 
     }
 }
 
-internal class Gate
-{
-    public Gate(Airline airline)
-    {
+internal class Gate {
+    public Gate(Airline airline) {
     }
 
-    internal void OpenGate()
-    {
+    internal static void OpenGate() {
 
     }
 
-    internal void CloseGate()
-    {
+    internal static void CloseGate() {
 
     }
 }
 
-internal class Baggage
-{
-    internal Baggage()
-    {
+internal class Baggage {
+    internal Baggage() {
     }
 }
