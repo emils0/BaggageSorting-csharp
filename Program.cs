@@ -8,26 +8,16 @@ internal class Program {
         Airline IAG = new(12, 2);
 
         Console.WriteLine($"{SAS.SorterAmount} {SAS.CheckInAmount}");
-
-        SAS.CheckInAmount = 100;
-        SAS.SorterAmount = 100;
-
-        Console.WriteLine($"{SAS.SorterAmount} {SAS.CheckInAmount}");
     }
 }
 
 internal class Airline {
     private int _sorterAmount;
-    public int SorterAmount {
-        get => _sorterAmount;
-        set => _sorterAmount = value;
-    }
+    public int SorterAmount => _sorterAmount;
 
     private int _checkInAmount;
-    public int CheckInAmount {
-        get => _checkInAmount;
-        set => _checkInAmount = value;
-    }
+    public int CheckInAmount => _checkInAmount;
+
 
     public Airline(int sorterAmount, int checkInAmount) {
         _sorterAmount = sorterAmount;
@@ -42,9 +32,9 @@ internal class Sorter {
 
 internal class CheckIn {
     internal static Queue<Baggage> BaggageList = new();
-    private readonly int Id;
+    private int _Id;
 
-    public CheckIn(int id, Airline airline) => this.Id = id;
+    public CheckIn(int id, Airline airline) => _Id = id;
 
     internal static void CloseCheckIn() {
 
